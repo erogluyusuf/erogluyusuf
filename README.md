@@ -1,4 +1,4 @@
-lloool,. ...'.':;,'..',''....';,,'';.........'.,..''.  .''..                  ldooooollllllcccc'    
+<pre>lloool,. ...'.':;,'..',''....';,,'';.........'.,..''.  .''..                  ldooooollllllcccc'    
 ooolc'......'';.''..,;.... ..;',;,,:'..'.,..' ..  '... .... .                 ...cooolllllllccc,    
 oolc;...''...'.   .;;c, ....':;;,,;:::,,.',:.     .. ........                 ,llooooollllllllc:    
 ool:..,,..,cc'.....':o,..;lc,cdldxdoco:'. ..   ..  . ... .. '                 'dddooooollllllllc    
@@ -48,6 +48,7 @@ ccldddxxxd;;.'....'.',''';,;;codl..        .     .lkkxxdddooxkkko:cooddodoll:l  
       ..,;'...                                                                                      
       .',''                                                                                         
       .'.,'                                                                                         
+</pre>                                                                               
 
 <p align="center">
   👨‍💻 Yazılım Geliştirici | 🔌 Elektronik Uzmanı | 🌱 Java & Linux Öğrencisi
