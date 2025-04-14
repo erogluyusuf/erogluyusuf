@@ -7,7 +7,41 @@ Benimle ilgili daha fazla bilgi edinmek için GitHub profilime göz atın.
 ## 🚀 En Son Projelerim
 
 <!--START_SECTION:repos-->
-Yükleniyor...
+
+<table>
+  <tr>
+    <td><a href="https://github.com/erogluyusuf/erogluyusuf"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" /></a></td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td><a href="https://github.com/erogluyusuf/erogluyusuf-repo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf-repo&theme=radical" /></a></td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td><a href="https://github.com/erogluyusuf/awesome-sindresorhus"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=awesome-sindresorhus&theme=radical" /></a></td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td><a href="https://github.com/erogluyusuf/webpageMailScripper"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=webpageMailScripper&theme=radical" /></a></td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td><a href="https://github.com/erogluyusuf/elementfinder"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=elementfinder&theme=radical" /></a></td>
+  </tr>
+</table>
+
 <!--END_SECTION:repos-->
 
 ## 📊 GitHub İstatistikleri
