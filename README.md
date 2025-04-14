@@ -60,39 +60,39 @@ ccldddxxxd;;.'....'.',''';,;;codl..        .     .lkkxxdddooxkkko:cooddodoll:l  
 
 <!--START_SECTION:repos-->
 
-<div align="left">
-  🔹 <strong><a href="https://github.com/erogluyusuf/erogluyusuf">erogluyusuf</a></strong><br/>
-  📄 step<br/>
-  ⭐ 0 | 🍴 0<br/><br/>
-</div>
+<table>
+  <tr>
+    <td><a href="https://github.com/erogluyusuf/erogluyusuf"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" /></a></td>
+  </tr>
+</table>
 
 
-<div align="left">
-  🔹 <strong><a href="https://github.com/erogluyusuf/erogluyusuf-repo">erogluyusuf-repo</a></strong><br/>
-  📄 Bilgisayar programcısı Yusuf Eroğlu'nun projelerini ve çalışmalarını keşfedin.<br/>
-  ⭐ 0 | 🍴 0<br/><br/>
-</div>
+<table>
+  <tr>
+    <td><a href="https://github.com/erogluyusuf/erogluyusuf-repo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf-repo&theme=radical" /></a></td>
+  </tr>
+</table>
 
 
-<div align="left">
-  🔹 <strong><a href="https://github.com/erogluyusuf/awesome-sindresorhus">awesome-sindresorhus</a></strong><br/>
-  📄 😎 Awesome lists about all kinds of interesting topics<br/>
-  ⭐ 0 | 🍴 0<br/><br/>
-</div>
+<table>
+  <tr>
+    <td><a href="https://github.com/erogluyusuf/awesome-sindresorhus"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=awesome-sindresorhus&theme=radical" /></a></td>
+  </tr>
+</table>
 
 
-<div align="left">
-  🔹 <strong><a href="https://github.com/erogluyusuf/webpageMailScripper">webpageMailScripper</a></strong><br/>
-  📄 Açıklama yok<br/>
-  ⭐ 0 | 🍴 0<br/><br/>
-</div>
+<table>
+  <tr>
+    <td><a href="https://github.com/erogluyusuf/webpageMailScripper"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=webpageMailScripper&theme=radical" /></a></td>
+  </tr>
+</table>
 
 
-<div align="left">
-  🔹 <strong><a href="https://github.com/erogluyusuf/elementfinder">elementfinder</a></strong><br/>
-  📄 element-finder<br/>
-  ⭐ 0 | 🍴 0<br/><br/>
-</div>
+<table>
+  <tr>
+    <td><a href="https://github.com/erogluyusuf/elementfinder"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=elementfinder&theme=radical" /></a></td>
+  </tr>
+</table>
 
 <!--END_SECTION:repos-->
 
