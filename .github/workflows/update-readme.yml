@@ -2,7 +2,7 @@ name: Günlük README Güncellemesi
 
 on:
   schedule:
-    - cron: "0 * * * *"  # Her saat başı çalışacak
+    - cron: "* * * * *"  # Her dakika çalışacak
   workflow_dispatch:  # Elle çalıştırılabilir
 
 jobs:
@@ -24,11 +24,12 @@ jobs:
           node fetch-repos.js
 
       - name: README'yi güncelle ve push et
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
           git add README.md
-          git commit -m "🔄 Otomatik README güncellendi"
-          git push https://github.com/erogluyusuf/erogluyusuf.git HEAD:main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git commit -m "🔄 Otomatik README güncellendi" || echo "🔁 Değişiklik yok"
+          git push origin HEAD:main
