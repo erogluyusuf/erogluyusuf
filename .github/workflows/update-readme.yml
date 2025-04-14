@@ -2,7 +2,7 @@ name: Günlük README Güncellemesi
 
 on:
   schedule:
-    - cron: "0 8 * * *"  # Her gün saat 08:00'de çalışacak
+    - cron: "* * * * *"  # Her dakika çalışacak
   workflow_dispatch:  # Elle çalıştırılabilir
 
 jobs:
