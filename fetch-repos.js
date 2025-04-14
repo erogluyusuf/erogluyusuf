@@ -23,13 +23,19 @@ function fetchRepos(callback) {
 }
 
 fetchRepos((repos) => {
-  const list = repos
-    .slice(0, maxRepos)
-    .map(
-      (repo) =>
-        `- [${repo.name}](${repo.html_url}): ${repo.description || "Açıklama yok"}`
-    )
-    .join("\n");
+const list = repos
+  .slice(0, maxRepos)
+  .map(
+    (repo) => `
+<div align="left">
+  🔹 <strong><a href="${repo.html_url}">${repo.name}</a></strong><br/>
+  📄 ${repo.description || "Açıklama yok"}<br/>
+  ⭐ ${repo.stargazers_count} | 🍴 ${repo.forks_count}<br/><br/>
+</div>
+`
+  )
+  .join("\n");
+
 
   const readme = fs.readFileSync("README.md", "utf-8");
   const updated = readme.replace(
