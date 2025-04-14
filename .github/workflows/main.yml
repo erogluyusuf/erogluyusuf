@@ -29,4 +29,6 @@ jobs:
           git config --global user.email "yusuferoglu1957@gmail.com"
           git add README.md
           git commit -m "🔄 Otomatik README güncellendi"
-          git push https://github.com/erogluyusuf/erogluyusuf.git HEAD:main --token ${{ secrets.GH_TOKEN }}
+          git push https://github.com/erogluyusuf/erogluyusuf.git HEAD:main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
