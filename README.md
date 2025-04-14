@@ -1,4 +1,54 @@
-<h1 align="center">Merhaba, ben Yusuf Eroğlu 👨‍💻</h1>
+lloool,. ...'.':;,'..',''....';,,'';.........'.,..''.  .''..                  ldooooollllllcccc'    
+ooolc'......'';.''..,;.... ..;',;,,:'..'.,..' ..  '... .... .                 ...cooolllllllccc,    
+oolc;...''...'.   .;;c, ....':;;,,;:::,,.',:.     .. ........                 ,llooooollllllllc:    
+ool:..,,..,cc'.....':o,..;lc,cdldxdoco:'. ..   ..  . ... .. '                 'dddooooollllllllc    
+ooo;;;,:odxl';:ll'.;,c'.,xxxxdl:oxxxxo;             .'.  .                    .dddooooolllllllll.   
+,o:,':ooodo,coooloc,:,.,:;,,,:;;::lxkk:             ... .                      odddooooollllllll'   
+ololllc::,;;,,;:,,...'';c:::,'...,:cdxc                                        lxddoooooolllllll,   
+oooooooll:,'...'..','..oxllooll:',;'::,                                        :xdddoooooollllll;   
+:::;;;::,'.''.....,.   ::cclodl:;.''..'   ....                                 ;xddddooooollllllc   
+c::::cc;;'...:;.....:..',;:ccc;:c;,l'.'.    .'...                              ,xddddoooooollllll.  
+ccclc::ccc'........,;,.''',:lc,:l:,'.ll.     '''.....                          'xxdddoooooollllll.  
+,,,,;c:c;cl'.'... .:,..''':c:c';cc:,.'l'     .'''......    ..                  .dxddddoooooolllll'  
+:;;,';llolc:,...  ..,...'c:,:;:,;;,.....      '''...''....                     .dxddddddooooollll;  
+lcllcldxxxl:;..,...',..',,.,;::,cl:,....      .''.  .......  ...                ;c:;;:odooooollll:  
+0Okx:oxxxxx;.'.....'...,'.,,,,;,ldl;;''..     ...  ......                             lddooooollll  
+WNXOolxxxx;...'lo''.',::;,'..,;;;lc;:;....    ...  .  .''..          .....            :ddoooooolll. 
+WK0kocxxxl......;.',....','.',::,'...,'..    .... ....cddoc;,,'',:cccccll,            ,ddooooollll' 
+NOxko:oddc...;,.c;';,'......,:cc'     ..'.   .... .,cldxxxddodddddddddoddc...         'dddooooolll, 
+0xdxo:olc;...:,.,:..;c;,'.':lccl;       ..'... .  .;ldxxxxxdxxxxxxxxxddddo;''.        .ddooooollll; 
+kddxocdol,..';o''. .'..,:c:lo:lkl      ... ..  ....cxxdlcodxxxxxxxxxdolldol,.         .dddooooolllc 
+xddxlcxdoo...:l'''..;..,o:ldclkko       ..  .  ;xd;lkdc;,'..,cddc:......':lc' .'.      oddooooollll.
+ddddloxxoo;..c;'..'';  :o,dodkkkd           .. .ldoxxdc;c.''.:xd:..'..'.,:cc,'c:.      lddooooollll.
+ddddddxxdodc.:;....',,';c;oxkkkdc.        .. ....odkddxdoc:;:lkx:;,:::::coll;;c.       :ddooooollll'
+ddddddxxxlcd,.;.,.''',,;c;looodol.        ..     ,xkkdxxddddodkxc:llloododol:c,        ;dddooooolll,
+ccldddxxxd;;.'....'.',''';,;;codl..        .     .lkkxxdddooxkkko:cooddodoll:l         'dddooooooll:
+;:;,,cllccc,.'......'..,,,;cc;;l,'.             ..'xxxxxddddlooc;codddddll:;'.         .ddddooooooll
+;,:l;.;cdoo;.... ...,' .:,,col;lo.              ...:xxxxdol:',,..'codoooc:;.           .xxxxdddddddo
+.cl;,,..'''''';......  ....',ll.;l              ....,ddxo::cllc:;;'',cl:;,.             ',,,,,,,,,,;
+',... . '..,...  . ..  ...,;;;xl.,              .    'dxddddolcccclc:c:,'.                          
+ .;,..  .:' ......  ..    .cc::xl.                   'dodxxdl:,,:clc:,',:,              ..          
+ ,.................        ,d;.ol...                 .odollcc:;:;;,..,:c:.              ';,,,,''....
+ ...,. ..............'..,.. :;...                     ;dddoc;,''.',:ccc:.               .',;:ccclllo
+ .,,.. .............'.  ',....                         .:oddolccccccc:'                   ..';:c:;::
+ ..'.............'.,..  .....                            .codoolc;'..                         .;c.;:
+  ........''......''.'.....                               .:ll:.                                ..:c
+  ...............,..,,'..                                  ':.                                    'c
+  .........   ..,.. .',.                                                                           .
+  ......      .''.......                                                                            
+   .......  .....,;....                                                                             
+   ...... .. ... .,,..                                                                              
+    ...  ............                                                                               
+    ...............                                                                                 
+   .............,'.                                                                                 
+     .............                                                                                  
+     ............                                                                                   
+    ..........'.                                                                                    
+    . ...''....                                                                                     
+      ..,;'...                                                                                      
+      .',''                                                                                         
+      .'.,'                                                                                         
+
 <p align="center">
   👨‍💻 Yazılım Geliştirici | 🔌 Elektronik Uzmanı | 🌱 Java & Linux Öğrencisi
 </p>
