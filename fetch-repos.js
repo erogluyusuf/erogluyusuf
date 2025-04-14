@@ -27,14 +27,15 @@ const list = repos
   .slice(0, maxRepos)
   .map(
     (repo) => `
-<div align="left">
-  🔹 <strong><a href="${repo.html_url}">${repo.name}</a></strong><br/>
-  📄 ${repo.description || "Açıklama yok"}<br/>
-  ⭐ ${repo.stargazers_count} | 🍴 ${repo.forks_count}<br/><br/>
-</div>
+<table>
+  <tr>
+    <td><a href="${repo.html_url}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" /></a></td>
+  </tr>
+</table>
 `
   )
   .join("\n");
+
 
 
   const readme = fs.readFileSync("README.md", "utf-8");
