@@ -26,7 +26,7 @@ jobs:
       - name: README'yi güncelle ve push et
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "yusuferoglu1957@gmail.com"
           git add README.md
           git commit -m "🔄 Otomatik README güncellendi"
           git push
