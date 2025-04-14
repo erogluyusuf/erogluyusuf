@@ -8,7 +8,41 @@
 ## 🚀 En Son Projelerim
 
 <!--START_SECTION:repos-->
-Yükleniyor...
+
+<div align="left">
+  🔹 <strong><a href="https://github.com/erogluyusuf/erogluyusuf">erogluyusuf</a></strong><br/>
+  📄 step<br/>
+  ⭐ 0 | 🍴 0<br/><br/>
+</div>
+
+
+<div align="left">
+  🔹 <strong><a href="https://github.com/erogluyusuf/erogluyusuf-repo">erogluyusuf-repo</a></strong><br/>
+  📄 Bilgisayar programcısı Yusuf Eroğlu'nun projelerini ve çalışmalarını keşfedin.<br/>
+  ⭐ 0 | 🍴 0<br/><br/>
+</div>
+
+
+<div align="left">
+  🔹 <strong><a href="https://github.com/erogluyusuf/awesome-sindresorhus">awesome-sindresorhus</a></strong><br/>
+  📄 😎 Awesome lists about all kinds of interesting topics<br/>
+  ⭐ 0 | 🍴 0<br/><br/>
+</div>
+
+
+<div align="left">
+  🔹 <strong><a href="https://github.com/erogluyusuf/webpageMailScripper">webpageMailScripper</a></strong><br/>
+  📄 Açıklama yok<br/>
+  ⭐ 0 | 🍴 0<br/><br/>
+</div>
+
+
+<div align="left">
+  🔹 <strong><a href="https://github.com/erogluyusuf/elementfinder">elementfinder</a></strong><br/>
+  📄 element-finder<br/>
+  ⭐ 0 | 🍴 0<br/><br/>
+</div>
+
 <!--END_SECTION:repos-->
 
 ---
