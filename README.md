@@ -1,77 +1,60 @@
-# 👋 Merhaba, Ben Yusuf Eroğlu!
+<h2 align="left">Hi 👋! My name is ... and I'm a ..., from ....</h2>
 
-Benimle ilgili daha fazla bilgi edinmek için GitHub profilime göz atın.
+###
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=erogluyusuf&show_icons=true&theme=radical)
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="30" alt="android logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="30" alt="androidstudio logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" height="30" alt="apache logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="30" alt="bash logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" height="30" alt="chrome logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-original.svg" height="30" alt="codepen logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fedora/fedora-original.svg" height="30" alt="fedora logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="30" alt="nginx logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="30" alt="npm logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="php logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
+</div>
 
-## 🚀 En Son Projelerim
+###
+
+<div align="left">
+  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo"  />
+  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
+  <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitch logo"  />
+  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
+  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+</div>
+
+###
+
+<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
+
+###
 
 <!--START_SECTION:repos-->
-
-<table>
-  <tr>
-    <td><a href="https://github.com/erogluyusuf/erogluyusuf"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" /></a></td>
-  </tr>
-</table>
-
-
-<table>
-  <tr>
-    <td><a href="https://github.com/erogluyusuf/erogluyusuf-repo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf-repo&theme=radical" /></a></td>
-  </tr>
-</table>
-
-
-<table>
-  <tr>
-    <td><a href="https://github.com/erogluyusuf/awesome-sindresorhus"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=awesome-sindresorhus&theme=radical" /></a></td>
-  </tr>
-</table>
-
-
-<table>
-  <tr>
-    <td><a href="https://github.com/erogluyusuf/webpageMailScripper"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=webpageMailScripper&theme=radical" /></a></td>
-  </tr>
-</table>
-
-
-<table>
-  <tr>
-    <td><a href="https://github.com/erogluyusuf/elementfinder"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=elementfinder&theme=radical" /></a></td>
-  </tr>
-</table>
-
+Yükleniyor...
 <!--END_SECTION:repos-->
-
-## 📊 GitHub İstatistikleri
-
-### 📜 GitHub Commit Sayacı
-![Commits](https://github-readme-stats.vercel.app/api/counter?username=erogluyusuf&style=for-the-badge&logo=git)
-
-### 🛠️ GitHub Issues Sayacı
-![Issues](https://github-readme-stats.vercel.app/api/issues?username=erogluyusuf&style=for-the-badge&logo=github)
-
-### 🔧 GitHub Pull Request Sayacı
-![Pull Requests](https://github-readme-stats.vercel.app/api/prs?username=erogluyusuf&style=for-the-badge&logo=github)
-
-### 🌟 Katkılarım
-![Contributions](https://github-readme-stats.vercel.app/api/top-langs/?username=erogluyusuf&layout=compact)
-
-## 🛠️ Wakatime Aktivite Raporu
-![Wakatime Stats](https://wakatime.com/badge/user/erogluyusuf.svg)
-
-## 📈 GitHub Verileri
-
-### 👨‍💻 Profil Bilgileri
-![Profile views](https://komarev.com/ghpvc/?username=erogluyusuf&color=blueviolet)
-
-### 🚀 GitHub İşlemleriniz
-![GitHub Actions](https://github.com/erogluyusuf/erogluyusuf/actions/workflows/main.yml/badge.svg)
-
----
-
-## 📫 Bana Ulaşın
-E-posta: [yusuferoglu1957@gmail.com](mailto:yusuferoglu1957@gmail.com)
-
-LinkedIn: [linkedin.com/in/erogluyusuf](https://linkedin.com/in/erogluyusuf)
