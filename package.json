@@ -1,0 +1,8 @@
+{
+  "name": "readme-auto-update",
+  "version": "1.0.0",
+  "main": "fetch-repos.js",
+  "scripts": {
+    "start": "node fetch-repos.js"
+  }
+}
