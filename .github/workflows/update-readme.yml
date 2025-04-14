@@ -1,10 +1,9 @@
-@ -0,0 +1,32 @@
 name: Günlük README Güncellemesi
 
 on:
   schedule:
-    - cron: "0 8 * * *"  # Her gün saat 08:00'de
-  workflow_dispatch:     # Elle de çalıştırabilmek için
+    - cron: "0 8 * * *"  # Her gün saat 08:00'de çalışacak
+  workflow_dispatch:  # Elle çalıştırılabilir
 
 jobs:
   update-readme:
@@ -17,7 +16,7 @@ jobs:
       - name: Node.js kur
         uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: '18'
 
       - name: Script'i çalıştır
         run: |
