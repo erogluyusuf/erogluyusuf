@@ -1,32 +1,39 @@
-name: Günlük README Güncellemesi
-
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
-  schedule:
-    - cron: "* * * * *"  # Her dakika çalışacak
-  workflow_dispatch:  # Elle çalıştırılabilir
+  push:
+    branches:
+      - main
 
 jobs:
-  update-readme:
+  test-job:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Repos'u klonla
+      - name: Check out repository code
         uses: actions/checkout@v3
 
-      - name: Node.js kur
+      - name: Display hello message
+        run: echo "Hello, this job has run successfully!"
+
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      
+      - name: Node.js Setup
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: Script'i çalıştır
+      - name: Run fetch-repos script
         run: |
           npm install
           node fetch-repos.js
-
-      - name: README'yi güncelle ve push et
+          
+      - name: Commit changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "yusuferoglu1957@gmail.com"
           git add README.md
-          git commit -m "🔄 Otomatik README güncellendi"
+          git commit -m "README updated"
           git push
