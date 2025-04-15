@@ -39,9 +39,8 @@ const list = repos
   .slice(0, maxRepos)
   .map(
     (repo) => `
-<table>
-  <tr>
-    <td><a href="${repo.html_url}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" /></a></td>
+<table style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+  <tr style="padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td><a href="${repo.html_url}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" /></a></td>
   </tr>
 </table>
