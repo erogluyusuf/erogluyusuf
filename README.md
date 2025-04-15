@@ -119,54 +119,48 @@
 
 <!--START_SECTION:repos-->
 
-<table>
-  <tr>
-    <td><a href="https://github.com/erogluyusuf/erogluyusuf"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" /></a></td>
+<table style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+  <tr style="padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td><a href="https://github.com/erogluyusuf/erogluyusuf"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" /></a></td>
   </tr>
 </table>
 
 
 
-<table>
-  <tr>
-    <td><a href="https://github.com/erogluyusuf/erogluyusuf-repo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf-repo&theme=radical" /></a></td>
+<table style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+  <tr style="padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td><a href="https://github.com/erogluyusuf/erogluyusuf-repo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf-repo&theme=radical" /></a></td>
   </tr>
 </table>
 
 
 
-<table>
-  <tr>
-    <td><a href="https://github.com/erogluyusuf/awesome-sindresorhus"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=awesome-sindresorhus&theme=radical" /></a></td>
+<table style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+  <tr style="padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td><a href="https://github.com/erogluyusuf/awesome-sindresorhus"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=awesome-sindresorhus&theme=radical" /></a></td>
   </tr>
 </table>
 
 
 
-<table>
-  <tr>
-    <td><a href="https://github.com/erogluyusuf/webpageMailScripper"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=webpageMailScripper&theme=radical" /></a></td>
+<table style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+  <tr style="padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td><a href="https://github.com/erogluyusuf/webpageMailScripper"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=webpageMailScripper&theme=radical" /></a></td>
   </tr>
 </table>
 
 
 
-<table>
-  <tr>
-    <td><a href="https://github.com/erogluyusuf/elementfinder"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=elementfinder&theme=radical" /></a></td>
+<table style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+  <tr style="padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td><a href="https://github.com/erogluyusuf/elementfinder"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=elementfinder&theme=radical" /></a></td>
   </tr>
 </table>
 
 
 
-<table>
-  <tr>
-    <td><a href="https://github.com/erogluyusuf/googlescript-mail"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=googlescript-mail&theme=radical" /></a></td>
+<table style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+  <tr style="padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td><a href="https://github.com/erogluyusuf/googlescript-mail"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=googlescript-mail&theme=radical" /></a></td>
   </tr>
 </table>
