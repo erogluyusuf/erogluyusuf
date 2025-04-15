@@ -124,42 +124,42 @@
       <div style="border: 2px solid #f2f2f2; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); background-color: #fff; transition: transform 0.2s ease-in-out;">
         <a href="https://github.com/erogluyusuf/erogluyusuf" style="display: block; padding: 10px; text-align: center; font-size: 14px; font-weight: bold; color: #333; text-decoration: none;">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" style="width: 100%; border-bottom: 2px solid #f2f2f2;" />
-          erogluyusuf
+          <span style="display: block; padding-top: 10px;">erogluyusuf</span>
         </a>
       </div>
     
       <div style="border: 2px solid #f2f2f2; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); background-color: #fff; transition: transform 0.2s ease-in-out;">
         <a href="https://github.com/erogluyusuf/erogluyusuf-repo" style="display: block; padding: 10px; text-align: center; font-size: 14px; font-weight: bold; color: #333; text-decoration: none;">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf-repo&theme=radical" style="width: 100%; border-bottom: 2px solid #f2f2f2;" />
-          erogluyusuf-repo
+          <span style="display: block; padding-top: 10px;">erogluyusuf-repo</span>
         </a>
       </div>
     
       <div style="border: 2px solid #f2f2f2; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); background-color: #fff; transition: transform 0.2s ease-in-out;">
         <a href="https://github.com/erogluyusuf/awesome-sindresorhus" style="display: block; padding: 10px; text-align: center; font-size: 14px; font-weight: bold; color: #333; text-decoration: none;">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=awesome-sindresorhus&theme=radical" style="width: 100%; border-bottom: 2px solid #f2f2f2;" />
-          awesome-sindresorhus
+          <span style="display: block; padding-top: 10px;">awesome-sindresorhus</span>
         </a>
       </div>
     
       <div style="border: 2px solid #f2f2f2; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); background-color: #fff; transition: transform 0.2s ease-in-out;">
         <a href="https://github.com/erogluyusuf/webpageMailScripper" style="display: block; padding: 10px; text-align: center; font-size: 14px; font-weight: bold; color: #333; text-decoration: none;">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=webpageMailScripper&theme=radical" style="width: 100%; border-bottom: 2px solid #f2f2f2;" />
-          webpageMailScripper
+          <span style="display: block; padding-top: 10px;">webpageMailScripper</span>
         </a>
       </div>
     
       <div style="border: 2px solid #f2f2f2; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); background-color: #fff; transition: transform 0.2s ease-in-out;">
         <a href="https://github.com/erogluyusuf/elementfinder" style="display: block; padding: 10px; text-align: center; font-size: 14px; font-weight: bold; color: #333; text-decoration: none;">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=elementfinder&theme=radical" style="width: 100%; border-bottom: 2px solid #f2f2f2;" />
-          elementfinder
+          <span style="display: block; padding-top: 10px;">elementfinder</span>
         </a>
       </div>
     
       <div style="border: 2px solid #f2f2f2; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); background-color: #fff; transition: transform 0.2s ease-in-out;">
         <a href="https://github.com/erogluyusuf/googlescript-mail" style="display: block; padding: 10px; text-align: center; font-size: 14px; font-weight: bold; color: #333; text-decoration: none;">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=googlescript-mail&theme=radical" style="width: 100%; border-bottom: 2px solid #f2f2f2;" />
-          googlescript-mail
+          <span style="display: block; padding-top: 10px;">googlescript-mail</span>
         </a>
       </div>
     
