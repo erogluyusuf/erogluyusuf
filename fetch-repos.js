@@ -27,14 +27,13 @@ const list = repos
   .slice(0, maxRepos)
   .reduce((acc, repo, index) => {
     const card = `
-      <td>
+      <td style="padding: 10px;">
         <a href="${repo.html_url}">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" />
         </a>
       </td>
     `;
 
-    // Yeni satıra başla
     if (index % 2 === 0) {
       acc += `<tr>${card}`;
     } else {
@@ -42,7 +41,8 @@ const list = repos
     }
 
     return acc;
-  }, '<table>') + '</table>';
+  }, '<table style="width:100%; table-layout: fixed;">') + '</table>';
+
 
 
 
