@@ -165,7 +165,9 @@
 
 
 
-
+<!--START_SECTION:waka-->
+Veriler yükleniyor...
+<!--END_SECTION:waka-->
 
 
 
