@@ -37,23 +37,17 @@ fetchRepos((repos) => {
 
 const list = repos
   .slice(0, maxRepos)
-  .reduce((acc, repo, index) => {
-    const card = `
-      <td style="padding: 10px;">
-        <a href="${repo.html_url}">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" />
-        </a>
-      </td>
-    `;
+  .map(
+    (repo) => `
+<table>
+  <tr>
+    <td><a href="${repo.html_url}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" /></a></td>
+  </tr>
+</table>
+`
+  )
+  .join("\n");
 
-    if (index % 2 === 0) {
-      acc += `<tr>${card}`;
-    } else {
-      acc += `${card}</tr>\n`;
-    }
-
-    return acc;
-  }, '<table style="width:100%; table-layout: fixed;">') + '</table>';
 
 
   const readme = fs.readFileSync("README.md", "utf-8");
