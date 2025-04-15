@@ -189,13 +189,6 @@
         </a>
       </div>
     
-      <div class="repo-card">
-        <a href="https://github.com/erogluyusuf/googlescript-mail">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=googlescript-mail&theme=radical" />
-          googlescript-mail
-        </a>
-      </div>
-    
   </div>
   
 <!--END_SECTION:repos-->
