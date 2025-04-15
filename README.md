@@ -165,17 +165,8 @@
 
 
 
-<!--START_SECTION:waka-->
+<img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/github-metrics.svg" />
 
-```txt
-From: 07 April 2025 - To: 14 April 2025
-
-Total Time: 0 secs
-
-No activity tracked
-```
-
-<!--END_SECTION:waka-->
 
 
 
