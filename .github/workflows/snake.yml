@@ -1,29 +1,16 @@
-name: Generate Snake Animation
-
+name: Generate Pac-Man Contributions Graph
 on:
-  schedule:
-    - cron: "0 0 * * *"
   push:
     branches:
       - main
-
 jobs:
-  generate:
+  pacman:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Generate snake animation
-        uses: Platane/snk@v3
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Generate Pac-Man Contribution Graph
+        uses: Platane/snk@master
         with:
-          github_user_name: erogluyusuf
-          outputs: |
-            ./github-contribution-grid-snake.svg
-            ./github-contribution-grid-snake-dark.svg
-
-      - name: Commit and push
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: "🐍 Update snake animation"
-          add: "github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg"
+          github_user: 'erogluyusuf'
+          svg_out_path: 'output/github-contribution-grid-snake.svg'
