@@ -40,7 +40,7 @@ const list = repos
   .map(
     (repo) => `
 <table style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-  <tr style="padding: 20px; border: 1px solid #ccc; text-align: center;">
+  <tr style="width:65px; padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td><a href="${repo.html_url}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" /></a></td>
   </tr>
 </table>
