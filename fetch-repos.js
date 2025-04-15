@@ -35,18 +35,26 @@ fetchRepos((repos) => {
     return;
   }
 
-  const list = `
-  <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; padding: 20px;">
-    ${repos.slice(0, maxRepos).map(repo => `
-      <div style="border: 2px solid #f2f2f2; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); background-color: #fff; transition: transform 0.2s ease-in-out;">
-        <a href="${repo.html_url}" style="display: block; padding: 10px; text-align: center; font-size: 14px; font-weight: bold; color: #333; text-decoration: none;">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" style="width: 100%; border-bottom: 2px solid #f2f2f2;" />
-          <span style="display: block; padding-top: 10px;">${repo.name}</span>
+const list = repos
+  .slice(0, maxRepos)
+  .reduce((acc, repo, index) => {
+    const card = `
+      <td style="padding: 10px;">
+        <a href="${repo.html_url}">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" />
         </a>
-      </div>
-    `).join('')}
-  </div>
-  `;
+      </td>
+    `;
+
+    if (index % 2 === 0) {
+      acc += `<tr>${card}`;
+    } else {
+      acc += `${card}</tr>\n`;
+    }
+
+    return acc;
+  }, '<table style="width:100%; table-layout: fixed;">') + '</table>';
+
 
   const readme = fs.readFileSync("README.md", "utf-8");
   const updated = readme.replace(
