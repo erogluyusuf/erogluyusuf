@@ -2,7 +2,7 @@ const fs = require("fs");
 const https = require("https");
 
 const username = "erogluyusuf"; // GitHub kullanıcı adın
-const maxRepos = 6; // En fazla kaç proje gösterilsin
+const maxRepos = 5; // En fazla kaç proje gösterilsin
 
 function fetchRepos(callback) {
   const options = {
