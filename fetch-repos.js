@@ -23,8 +23,7 @@ function fetchRepos(callback) {
 }
 
 fetchRepos((repos) => {
-  .reduce((acc, repo, index) => {
-const list = `
+  const list = `
 <table>
   <tr>
     ${repos.slice(0, maxRepos).map(repo => `
@@ -37,12 +36,6 @@ const list = `
   </tr>
 </table>
 `;
-
-
-
-
-
-
 
   const readme = fs.readFileSync("README.md", "utf-8");
   const updated = readme.replace(
