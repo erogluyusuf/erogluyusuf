@@ -24,18 +24,20 @@ function fetchRepos(callback) {
 
 fetchRepos((repos) => {
   .reduce((acc, repo, index) => {
-const list = repos
-  .slice(0, maxRepos)
-  .map(
-    (repo) => `
+const list = `
 <table>
   <tr>
-    <td><a href="${repo.html_url}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" /></a></td>
+    ${repos.slice(0, maxRepos).map(repo => `
+      <td>
+        <a href="${repo.html_url}">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" />
+        </a>
+      </td>
+    `).join('')}
   </tr>
 </table>
-`
-  )
-  .join("\n");
+`;
+
 
 
 
