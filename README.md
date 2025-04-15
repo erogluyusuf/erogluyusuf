@@ -119,73 +119,47 @@
 
 <!--START_SECTION:repos-->
 
-  <style>
-    .repo-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 20px;
-      padding: 20px;
-    }
-    .repo-card {
-      border: 2px solid #f2f2f2;
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      background-color: #fff;
-      transition: transform 0.2s ease-in-out;
-    }
-    .repo-card:hover {
-      transform: translateY(-10px);
-    }
-    .repo-card img {
-      width: 100%;
-      border-bottom: 2px solid #f2f2f2;
-    }
-    .repo-card a {
-      display: block;
-      padding: 10px;
-      text-align: center;
-      font-size: 14px;
-      font-weight: bold;
-      color: #333;
-      text-decoration: none;
-    }
-  </style>
-
-  <div class="repo-container">
+  <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; padding: 20px;">
     
-      <div class="repo-card">
-        <a href="https://github.com/erogluyusuf/erogluyusuf">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" />
+      <div style="border: 2px solid #f2f2f2; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); background-color: #fff; transition: transform 0.2s ease-in-out;">
+        <a href="https://github.com/erogluyusuf/erogluyusuf" style="display: block; padding: 10px; text-align: center; font-size: 14px; font-weight: bold; color: #333; text-decoration: none;">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" style="width: 100%; border-bottom: 2px solid #f2f2f2;" />
           erogluyusuf
         </a>
       </div>
     
-      <div class="repo-card">
-        <a href="https://github.com/erogluyusuf/erogluyusuf-repo">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf-repo&theme=radical" />
+      <div style="border: 2px solid #f2f2f2; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); background-color: #fff; transition: transform 0.2s ease-in-out;">
+        <a href="https://github.com/erogluyusuf/erogluyusuf-repo" style="display: block; padding: 10px; text-align: center; font-size: 14px; font-weight: bold; color: #333; text-decoration: none;">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf-repo&theme=radical" style="width: 100%; border-bottom: 2px solid #f2f2f2;" />
           erogluyusuf-repo
         </a>
       </div>
     
-      <div class="repo-card">
-        <a href="https://github.com/erogluyusuf/awesome-sindresorhus">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=awesome-sindresorhus&theme=radical" />
+      <div style="border: 2px solid #f2f2f2; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); background-color: #fff; transition: transform 0.2s ease-in-out;">
+        <a href="https://github.com/erogluyusuf/awesome-sindresorhus" style="display: block; padding: 10px; text-align: center; font-size: 14px; font-weight: bold; color: #333; text-decoration: none;">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=awesome-sindresorhus&theme=radical" style="width: 100%; border-bottom: 2px solid #f2f2f2;" />
           awesome-sindresorhus
         </a>
       </div>
     
-      <div class="repo-card">
-        <a href="https://github.com/erogluyusuf/webpageMailScripper">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=webpageMailScripper&theme=radical" />
+      <div style="border: 2px solid #f2f2f2; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); background-color: #fff; transition: transform 0.2s ease-in-out;">
+        <a href="https://github.com/erogluyusuf/webpageMailScripper" style="display: block; padding: 10px; text-align: center; font-size: 14px; font-weight: bold; color: #333; text-decoration: none;">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=webpageMailScripper&theme=radical" style="width: 100%; border-bottom: 2px solid #f2f2f2;" />
           webpageMailScripper
         </a>
       </div>
     
-      <div class="repo-card">
-        <a href="https://github.com/erogluyusuf/elementfinder">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=elementfinder&theme=radical" />
+      <div style="border: 2px solid #f2f2f2; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); background-color: #fff; transition: transform 0.2s ease-in-out;">
+        <a href="https://github.com/erogluyusuf/elementfinder" style="display: block; padding: 10px; text-align: center; font-size: 14px; font-weight: bold; color: #333; text-decoration: none;">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=elementfinder&theme=radical" style="width: 100%; border-bottom: 2px solid #f2f2f2;" />
           elementfinder
+        </a>
+      </div>
+    
+      <div style="border: 2px solid #f2f2f2; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); background-color: #fff; transition: transform 0.2s ease-in-out;">
+        <a href="https://github.com/erogluyusuf/googlescript-mail" style="display: block; padding: 10px; text-align: center; font-size: 14px; font-weight: bold; color: #333; text-decoration: none;">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=googlescript-mail&theme=radical" style="width: 100%; border-bottom: 2px solid #f2f2f2;" />
+          googlescript-mail
         </a>
       </div>
     
