@@ -1,4 +1,40 @@
+
+
+
+
+
+
+###
+
+<div align="right">
+  <img src="https://profile-counter.glitch.me/erogluyusuf/count.svg?"  />
+</div>
+
+###
+
+
+
+###
+
+<img align="right" height="250" src="https://tnow-prod-apac.367791ca7abea81096902b345fee7b1f.r2.cloudflarestorage.com/2025-04-15/4fe3086b1db3f3ad3050b259694702a9/20250415Yew4cEhB/Ym5ACq/ChatGPT%20Image%2015%20Nis%202025%2015_04_44.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=882af22225f5a3c718a96ffd4ac141a1%2F20250415%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250415T120705Z&X-Amz-Expires=120&X-Amz-Signature=f11c95acd4b076dd69287282778a2c624796e95627003c410cd424994a77e762&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22ChatGPT%20Image%2015%20Nis%202025%2015_04_44.png%22&x-id=GetObject"  />
+
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=erogluyusuf&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=erogluyusuf&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+</div>
+<br>
 <h2 align="center">Hi 👋! My name is Yusuf Eroğlu and I'm a Software Developer, from Turkey.</h2>
+<br>
+
+
+
+
+
+
+
+
+
 
 ###
 
@@ -40,7 +76,7 @@
 
 ###
 
-<div align="left">
+<div align="center">
   <a href="https://www.youtube.com/@GlobipediMovies" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo"  />
   </a>
@@ -57,22 +93,19 @@
   </a>
 </div>
 
-###
 
-<img align="right" height="250" src="https://tnow-prod-apac.367791ca7abea81096902b345fee7b1f.r2.cloudflarestorage.com/2025-04-15/4fe3086b1db3f3ad3050b259694702a9/20250415Yew4cEhB/Ym5ACq/ChatGPT%20Image%2015%20Nis%202025%2015_04_44.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=882af22225f5a3c718a96ffd4ac141a1%2F20250415%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250415T120705Z&X-Amz-Expires=120&X-Amz-Signature=f11c95acd4b076dd69287282778a2c624796e95627003c410cd424994a77e762&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22ChatGPT%20Image%2015%20Nis%202025%2015_04_44.png%22&x-id=GetObject"  />
 
-###
 
-<div align="center">
-  <img src="https://profile-counter.glitch.me/erogluyusuf/count.svg?"  />
-</div>
 
-###
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=erogluyusuf&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=erogluyusuf&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-</div>
+
+
+
+
+
+
+
+
 
 ###
 
@@ -120,13 +153,6 @@
     </table>
 <!--END_SECTION:repos-->
 
-
-
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
-</picture>
 
 
 
