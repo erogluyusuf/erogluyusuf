@@ -119,42 +119,85 @@
 
 <!--START_SECTION:repos-->
 
-<table>
-  <tr>
+  <style>
+    .repo-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .repo-card {
+      border: 2px solid #f2f2f2;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      transition: transform 0.2s ease-in-out;
+    }
+    .repo-card:hover {
+      transform: translateY(-10px);
+    }
+    .repo-card img {
+      width: 100%;
+      border-bottom: 2px solid #f2f2f2;
+    }
+    .repo-card a {
+      display: block;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+      text-decoration: none;
+    }
+  </style>
+
+  <div class="repo-container">
     
-      <td>
+      <div class="repo-card">
         <a href="https://github.com/erogluyusuf/erogluyusuf">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" />
+          erogluyusuf
         </a>
-      </td>
+      </div>
     
-      <td>
+      <div class="repo-card">
         <a href="https://github.com/erogluyusuf/erogluyusuf-repo">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf-repo&theme=radical" />
+          erogluyusuf-repo
         </a>
-      </td>
+      </div>
     
-      <td>
+      <div class="repo-card">
         <a href="https://github.com/erogluyusuf/awesome-sindresorhus">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=awesome-sindresorhus&theme=radical" />
+          awesome-sindresorhus
         </a>
-      </td>
+      </div>
     
-      <td>
+      <div class="repo-card">
         <a href="https://github.com/erogluyusuf/webpageMailScripper">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=webpageMailScripper&theme=radical" />
+          webpageMailScripper
         </a>
-      </td>
+      </div>
     
-      <td>
+      <div class="repo-card">
         <a href="https://github.com/erogluyusuf/elementfinder">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=elementfinder&theme=radical" />
+          elementfinder
         </a>
-      </td>
+      </div>
     
-  </tr>
-</table>
-
+      <div class="repo-card">
+        <a href="https://github.com/erogluyusuf/googlescript-mail">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=googlescript-mail&theme=radical" />
+          googlescript-mail
+        </a>
+      </div>
+    
+  </div>
+  
 <!--END_SECTION:repos-->
 
 <picture>
