@@ -85,34 +85,34 @@
 </picture>
 
 <!--START_SECTION:repos-->
-<table><tr>
-      <td>
+<table style="width:100%; table-layout: fixed;"><tr>
+      <td style="padding: 10px;">
         <a href="https://github.com/erogluyusuf/erogluyusuf">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" />
         </a>
       </td>
     
-      <td>
+      <td style="padding: 10px;">
         <a href="https://github.com/erogluyusuf/erogluyusuf-repo">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf-repo&theme=radical" />
         </a>
       </td>
     </tr>
 <tr>
-      <td>
+      <td style="padding: 10px;">
         <a href="https://github.com/erogluyusuf/awesome-sindresorhus">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=awesome-sindresorhus&theme=radical" />
         </a>
       </td>
     
-      <td>
+      <td style="padding: 10px;">
         <a href="https://github.com/erogluyusuf/webpageMailScripper">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=webpageMailScripper&theme=radical" />
         </a>
       </td>
     </tr>
 <tr>
-      <td>
+      <td style="padding: 10px;">
         <a href="https://github.com/erogluyusuf/elementfinder">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=elementfinder&theme=radical" />
         </a>
