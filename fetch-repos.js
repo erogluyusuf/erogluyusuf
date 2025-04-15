@@ -25,16 +25,25 @@ function fetchRepos(callback) {
 fetchRepos((repos) => {
 const list = repos
   .slice(0, maxRepos)
-  .map(
-    (repo) => `
-<table>
-  <tr>
-    <td><a href="${repo.html_url}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" /></a></td>
-  </tr>
-</table>
-`
-  )
-  .join("\n");
+  .reduce((acc, repo, index) => {
+    const card = `
+      <td>
+        <a href="${repo.html_url}">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" />
+        </a>
+      </td>
+    `;
+
+    // Yeni satıra başla
+    if (index % 2 === 0) {
+      acc += `<tr>${card}`;
+    } else {
+      acc += `${card}</tr>\n`;
+    }
+
+    return acc;
+  }, '<table>') + '</table>';
+
 
 
 
