@@ -24,7 +24,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=erogluyusuf&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" width="350"  alt="languages graph"  />
 </div>
 <br>
-<h2 align="center">Hi 👋! My name is Yusuf Eroğlu and I'm a Software Developer, from Turkey.</h2>
+<h2 align="center">Software Development | System and Network Administration</h2>
 <br>
 
 
