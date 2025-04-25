@@ -136,8 +136,8 @@
 <table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
   <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td style="width: 100%; padding: 10px;">
-      <a href="https://github.com/erogluyusuf/erogluyusuf-repo">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf-repo&theme=radical" />
+      <a href="https://github.com/erogluyusuf/erogluyusuf">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" />
       </a>
     </td>
   </tr>
@@ -150,8 +150,8 @@
 <table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
   <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td style="width: 100%; padding: 10px;">
-      <a href="https://github.com/erogluyusuf/erogluyusuf">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" />
+      <a href="https://github.com/erogluyusuf/erogluyusuf-repo">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf-repo&theme=radical" />
       </a>
     </td>
   </tr>
