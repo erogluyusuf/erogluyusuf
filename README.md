@@ -122,6 +122,20 @@
 <table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
   <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td style="width: 100%; padding: 10px;">
+      <a href="https://github.com/erogluyusuf/erogluyusuf">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" />
+      </a>
+    </td>
+  </tr>
+  <!-- Diğer satırlar burada olacak -->
+</table>
+
+
+
+
+<table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
+  <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
+    <td style="width: 100%; padding: 10px;">
       <a href="https://github.com/erogluyusuf/PanTracker-extension">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=PanTracker-extension&theme=radical" />
       </a>
@@ -180,20 +194,6 @@
     <td style="width: 100%; padding: 10px;">
       <a href="https://github.com/erogluyusuf/HeartFit-Mobile-Android">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=HeartFit-Mobile-Android&theme=radical" />
-      </a>
-    </td>
-  </tr>
-  <!-- Diğer satırlar burada olacak -->
-</table>
-
-
-
-
-<table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
-  <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
-    <td style="width: 100%; padding: 10px;">
-      <a href="https://github.com/erogluyusuf/java-glossary-of-terms">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=java-glossary-of-terms&theme=radical" />
       </a>
     </td>
   </tr>
