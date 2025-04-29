@@ -95,6 +95,9 @@
 
 
 
+## 📈 GitHub Aktivite Grafiğim
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=erogluyusuf&theme=github-compact" alt="erogluyusuf'un GitHub aktivite grafiği" />
 
 
 
@@ -197,6 +200,9 @@
       </a>
     </td>
   </tr>
+
+
+
   <!-- Diğer satırlar burada olacak -->
 </table>
 
