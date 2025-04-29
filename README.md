@@ -200,9 +200,6 @@
       </a>
     </td>
   </tr>
-
-
-
   <!-- Diğer satırlar burada olacak -->
 </table>
 
