@@ -125,6 +125,20 @@
 <table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
   <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td style="width: 100%; padding: 10px;">
+      <a href="https://github.com/erogluyusuf/erogluyusuf">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" />
+      </a>
+    </td>
+  </tr>
+  <!-- Diğer satırlar burada olacak -->
+</table>
+
+
+
+
+<table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
+  <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
+    <td style="width: 100%; padding: 10px;">
       <a href="https://github.com/erogluyusuf/firefox_decrypt">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=firefox_decrypt&theme=radical" />
       </a>
@@ -169,20 +183,6 @@
     <td style="width: 100%; padding: 10px;">
       <a href="https://github.com/erogluyusuf/morse">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=morse&theme=radical" />
-      </a>
-    </td>
-  </tr>
-  <!-- Diğer satırlar burada olacak -->
-</table>
-
-
-
-
-<table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
-  <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
-    <td style="width: 100%; padding: 10px;">
-      <a href="https://github.com/erogluyusuf/erogluyusuf">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" />
       </a>
     </td>
   </tr>
