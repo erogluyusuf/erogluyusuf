@@ -1,8 +1,5 @@
 ###
 
-<div align="right">
-  <img src="https://profile-counter.glitch.me/erogluyusuf/count.svg?"  />
-</div>
 
 ###
 
