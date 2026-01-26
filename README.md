@@ -1,59 +1,3 @@
-
-<div align="center" style="font-family: monospace;">
-
-        <div align="left" style="margin-left: 5%;">
-            <b>🏰 LEVEL 1</b><br/>
-            
-      <a href="https://github.com/erogluyusuf/erogluyusuf">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical&hide_border=true" width="350" alt="erogluyusuf" />
-      </a>
-    
-        </div><div align="center" style="font-size: 30px; margin: -20px 0;">↘️ . . . . . </div>
-
-        <div align="right" style="margin-right: 5%;">
-            <b>🏰 LEVEL 2</b><br/>
-            
-      <a href="https://github.com/erogluyusuf/Drupal">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Drupal&theme=radical&hide_border=true" width="350" alt="Drupal" />
-      </a>
-    
-        </div><div align="center" style="font-size: 30px; margin: -20px 0;">. . . . . ↙️</div>
-
-        <div align="left" style="margin-left: 5%;">
-            <b>🏰 LEVEL 3</b><br/>
-            
-      <a href="https://github.com/erogluyusuf/DailyFlow-app">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=DailyFlow-app&theme=radical&hide_border=true" width="350" alt="DailyFlow-app" />
-      </a>
-    
-        </div><div align="center" style="font-size: 30px; margin: -20px 0;">↘️ . . . . . </div>
-
-        <div align="right" style="margin-right: 5%;">
-            <b>🏰 LEVEL 4</b><br/>
-            
-      <a href="https://github.com/erogluyusuf/Etnikyopya">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Etnikyopya&theme=radical&hide_border=true" width="350" alt="Etnikyopya" />
-      </a>
-    
-        </div><div align="center" style="font-size: 30px; margin: -20px 0;">. . . . . ↙️</div>
-
-        <div align="left" style="margin-left: 5%;">
-            <b>🏰 LEVEL 5</b><br/>
-            
-      <a href="https://github.com/erogluyusuf/linebyline.com">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=linebyline.com&theme=radical&hide_border=true" width="350" alt="linebyline.com" />
-      </a>
-    
-        </div><div align="center" style="font-size: 30px; margin: -20px 0;">↘️ . . . . . </div>
-
-        <div align="right" style="margin-right: 5%;">
-            <b>🏰 LEVEL 6</b><br/>
-            
-      <a href="https://github.com/erogluyusuf/Feuerstelle">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Feuerstelle&theme=radical&hide_border=true" width="350" alt="Feuerstelle" />
-      </a>
-    
-        </div></div>
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=erogluyusuf&label=Profile%20Views&color=0e75b6&style=flat" alt="yusuf-counter" />
 </div>
@@ -99,15 +43,65 @@
 
 <h3 align="center">🛠️ Languages and Tools</h3>
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="40" alt="android" /> <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java" /> <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode" /> <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5" /> <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript" /> <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php" /> <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql" /> <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux" /> <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="40" alt="android" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="40" alt="androidstudio" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="40" alt="npm" />
+  <br/><br/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fedora/fedora-original.svg" height="40" alt="fedora" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="bash" />
+  <img width="10" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" height="40" alt="apache" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="40" alt="nginx" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" height="40" alt="chrome" />
+</div>
+
+<br/>
+
+<h3 align="center">📂 Featured Projects</h3>
+<div align="center">
+  <a href="https://github.com/erogluyusuf/erogluyusuf">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" width="400" alt="erogluyusuf" />
+  </a>
+  <a href="https://github.com/erogluyusuf/Drupal">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Drupal&theme=radical" width="400" alt="Drupal" />
+  </a>
+</div>
+<div align="center">
+  <a href="https://github.com/erogluyusuf/DailyFlow-app">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=DailyFlow-app&theme=radical" width="400" alt="DailyFlow" />
+  </a>
+  <a href="https://github.com/erogluyusuf/Etnikyopya">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Etnikyopya&theme=radical" width="400" alt="Etnikyopya" />
+  </a>
+</div>
+<div align="center">
+  <a href="https://github.com/erogluyusuf/linebyline.com">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=linebyline.com&theme=radical" width="400" alt="linebyline" />
+  </a>
+  <a href="https://github.com/erogluyusuf/Feuerstelle">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Feuerstelle&theme=radical" width="400" alt="Feuerstelle" />
+  </a>
 </div>
 
 <br/>
@@ -127,6 +121,4 @@
   </picture>
 </div>
 
-<br/>
-
-<h3 align="center">🗺️ QUEST MAP: Latest Projects</h3>
+<h3 align="center">🔄 Automatically Updated Repos</h3>
