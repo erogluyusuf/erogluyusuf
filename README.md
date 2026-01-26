@@ -114,7 +114,6 @@
       </a>
     </td>
   </tr>
-  <!-- Diğer satırlar burada olacak -->
 </table>
 
 
@@ -128,7 +127,6 @@
       </a>
     </td>
   </tr>
-  <!-- Diğer satırlar burada olacak -->
 </table>
 
 
@@ -157,6 +155,9 @@
   </tr>
 </table>
 
+
+
+
 <table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
   <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td style="width: 100%; padding: 10px;">
@@ -166,6 +167,9 @@
     </td>
   </tr>
 </table>
+
+
+
 
 <table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
   <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
