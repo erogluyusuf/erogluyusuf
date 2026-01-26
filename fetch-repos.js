@@ -35,65 +35,66 @@ fetchRepos((repos) => {
     return;
   }
 
-  // --- OYUN HARİTASI TASARIMI ALGORİTMASI ---
+  // --- ZİKZAK HARİTA TASARIMI ---
   
   let content = `<div align="center" style="font-family: monospace;">\n`;
-  content += `<h3>🗺️ QUEST MAP: Latest Projects</h3>\n`;
-
+  
   const validRepos = repos.slice(0, maxRepos);
 
   validRepos.forEach((repo, index) => {
-    const isEven = index % 2 === 0; // Çift sayılar (0, 2, 4) -> SOLA
+    const isEven = index % 2 === 0; // Çift sayılar (0, 2, 4) -> SOLA, Tekler -> SAĞA
     
-    // 1. ADIM: "Level" Başlığı (Oyun Havası Katmak İçin)
+    // Level Başlığı
     const levelBadge = `<b>🏰 LEVEL ${index + 1}</b>`;
 
-    // 2. ADIM: Repo Kartı
+    // Repo Kartı
     const repoCard = `
       <a href="${repo.html_url}">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical&hide_border=true" width="350" alt="${repo.name}" />
       </a>
     `;
 
-    // 3. ADIM: Yönlendirme ve Hizalama (Zikzak Mantığı)
+    // Yönlendirme (Zikzak Mantığı)
     if (isEven) {
-        // --- SOLDA GÖSTER ---
+        // --- SOLA YASLA ---
         content += `
-        <div align="left" style="margin-left: 10%;">
+        <div align="left" style="margin-left: 5%;">
             ${levelBadge}<br/>
             ${repoCard}
         </div>`;
         
-        // Eğer bu son eleman değilse, aşağı sağa giden bir ok/yol ekle
+        // Ok İşareti (Aşağı Sağa)
         if (index < validRepos.length - 1) {
-            content += `<div align="center"><img src="https://raw.githubusercontent.com/erogluyusuf/erogluyusuf/main/assets/path-down-right.png" width="50" alt="↘️" /> <br/></div>\n`;
+            content += `<div align="center" style="font-size: 30px; margin: -20px 0;">↘️ . . . . . </div>\n`;
         }
 
     } else {
-        // --- SAĞDA GÖSTER ---
+        // --- SAĞA YASLA ---
         content += `
-        <div align="right" style="margin-right: 10%;">
+        <div align="right" style="margin-right: 5%;">
             ${levelBadge}<br/>
             ${repoCard}
         </div>`;
 
-        // Eğer bu son eleman değilse, aşağı sola giden bir ok/yol ekle
+        // Ok İşareti (Aşağı Sola)
         if (index < validRepos.length - 1) {
-            content += `<div align="center"><img src="https://raw.githubusercontent.com/erogluyusuf/erogluyusuf/main/assets/path-down-left.png" width="50" alt="↙️" /> <br/></div>\n`;
+            content += `<div align="center" style="font-size: 30px; margin: -20px 0;">. . . . . ↙️</div>\n`;
         }
     }
   });
 
   content += `</div>`;
 
-  // --- HTML GÜNCELLEME ---
+  // --- DOSYAYA YAZMA (GÜVENLİ MOD) ---
 
   const readme = fs.readFileSync("README.md", "utf-8");
+  
+  // Sadece START ve END etiketlerinin arasını değiştirir.
   const updated = readme.replace(
-    /[\s\S]*/,
+    /[\s\S]*?/,
     `\n${content}\n`
   );
 
   fs.writeFileSync("README.md", updated, "utf-8");
-  console.log("Map style updated successfully!");
+  console.log("Map style updated successfully (safe mode)!");
 });
