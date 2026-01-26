@@ -7,7 +7,7 @@
 
 ###
 
-<img align="right" height="300" width="250" src="https://github.com/erogluyusuf/erogluyusuf/blob/main/Globipedi.png"  />
+
 
 
 <div align="center">
