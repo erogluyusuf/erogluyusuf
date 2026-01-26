@@ -35,32 +35,31 @@ fetchRepos((repos) => {
     return;
   }
 
-const list = repos
-  .slice(0, maxRepos)
-  .map(
-    (repo) => `
-<table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
-  <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
-    <td style="width: 100%; padding: 10px;">
-      <a href="${repo.html_url}">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" />
-      </a>
-    </td>
-  </tr>
-  <!-- Diğer satırlar burada olacak -->
-</table>
+  // 1. ADIM: Her repoyu sadece bir Link ve Resim olarak hazırla (Tabloyu kaldırdık)
+  const repoCards = repos
+    .slice(0, maxRepos)
+    .map(
+      (repo) => `
+  <a href="${repo.html_url}">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" width="400" alt="${repo.name}" />
+  </a>`
+    )
+    .join("\n");
 
-
-`
-  )
-  .join("\n");
-
-
+  // 2. ADIM: Tüm kartları tek bir ortalanmış DIV içine al
+  // Bu sayede ekran genişliğine göre yan yana dizilirler.
+  const finalContent = `
+<div align="center">
+${repoCards}
+</div>
+`;
 
   const readme = fs.readFileSync("README.md", "utf-8");
+  
+  // 3. ADIM: README dosyasındaki alanı güncelle
   const updated = readme.replace(
-    /<!--START_SECTION:repos-->[\s\S]*<!--END_SECTION:repos-->/,
-    `<!--START_SECTION:repos-->\n${list}\n<!--END_SECTION:repos-->`
+    /[\s\S]*/,
+    `\n${finalContent}\n`
   );
 
   fs.writeFileSync("README.md", updated, "utf-8");
