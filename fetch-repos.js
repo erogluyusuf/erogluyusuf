@@ -35,50 +35,52 @@ fetchRepos((repos) => {
     return;
   }
 
-  // Sadece ilk 6 repoyu al
   const selectedRepos = repos.slice(0, maxRepos);
+  
+  // -- TASARIM KISMI BAŞLANGICI --
+  // .map yerine döngü ile TEK BİR tablo oluşturuyoruz.
+  // Bu sayede "list" değişkeni düzgün bir HTML yapısı tutacak.
+  
+  let list = `<table width="100%">\n`;
 
-  // Tablo başlangıcı (Hizalama ve genişlik ayarlı)
-  let tableContent = `<table width="100%">\n`;
-
-  // Her satırda 2 repo olacak şekilde döngü kuruyoruz
   for (let i = 0; i < selectedRepos.length; i += 2) {
     const repo1 = selectedRepos[i];
-    const repo2 = selectedRepos[i + 1]; // Çift sayıdaysa 2. eleman, yoksa undefined
+    const repo2 = selectedRepos[i + 1];
 
-    tableContent += `  <tr>\n`;
+    list += `  <tr>\n`;
+    
+    // 1. Repo (Sol Taraf)
+    list += `    <td width="50%" align="center">\n`;
+    list += `      <a href="${repo1.html_url}">\n`;
+    list += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo1.name}&theme=radical" />\n`;
+    list += `      </a>\n`;
+    list += `    </td>\n`;
 
-    // 1. Sütun
-    tableContent += `    <td width="50%" align="center">\n`;
-    tableContent += `      <a href="${repo1.html_url}">\n`;
-    // Kartın gölge efektini artırmak ve arka planı kaldırmak için parametreler eklendi
-    tableContent += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo1.name}&theme=radical&bg_color=0d1117&border_radius=10" />\n`;
-    tableContent += `      </a>\n`;
-    tableContent += `    </td>\n`;
-
-    // 2. Sütun (Eğer repo varsa)
+    // 2. Repo (Sağ Taraf - Varsa)
     if (repo2) {
-      tableContent += `    <td width="50%" align="center">\n`;
-      tableContent += `      <a href="${repo2.html_url}">\n`;
-      tableContent += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo2.name}&theme=radical&bg_color=0d1117&border_radius=10" />\n`;
-      tableContent += `      </a>\n`;
-      tableContent += `    </td>\n`;
+      list += `    <td width="50%" align="center">\n`;
+      list += `      <a href="${repo2.html_url}">\n`;
+      list += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo2.name}&theme=radical" />\n`;
+      list += `      </a>\n`;
+      list += `    </td>\n`;
     } else {
-      // Eğer tek sayıda repo varsa, boş bir hücre ekle ki tablo bozulmasın
-      tableContent += `    <td width="50%"></td>\n`;
+      list += `    <td width="50%"></td>\n`; // Boş hücre (hizalama bozulmasın diye)
     }
 
-    tableContent += `  </tr>\n`;
+    list += `  </tr>\n`;
   }
+  
+  list += `</table>`; 
+  // -- TASARIM KISMI BİTİŞİ --
 
-  tableContent += `</table>`;
 
+  // BURASI SENİN ORİJİNAL KODUN (Mantığı bozmadık)
   const readme = fs.readFileSync("README.md", "utf-8");
   
-  // Regex ile mevcut bloğu bul ve yeni tablo ile değiştir
+  // Senin kullandığın regex ve replace mantığı aynen duruyor
   const updated = readme.replace(
     /[\s\S]*/,
-    `\n${tableContent}\n`
+    `\n${list}\n`
   );
 
   fs.writeFileSync("README.md", updated, "utf-8");
