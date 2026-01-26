@@ -37,13 +37,13 @@ fetchRepos((repos) => {
   }
 
 const list = `
-<div align="center">
-${repos.slice(0, maxRepos).map(repo => `
-  <a href="${repo.html_url}">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=ff79c6&icon_color=8be9fd" height="120" />
-  </a>`).join('\n')}
-</div>
-`;
+<p align="center">
+${repos.slice(0, maxRepos).map(repo => {
+  // Dil renklerine göre küçük kareler (placeholder simgeler)
+  return `<a href="${repo.html_url}"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical&show_owner=false" width="300" /></a>`;
+}).join('\n')}
+</p>
+<p align="right"><i>// End of Transmission</i></p>
 
 
 
