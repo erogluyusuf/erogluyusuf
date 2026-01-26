@@ -36,24 +36,16 @@ fetchRepos((repos) => {
     return;
   }
 
-const list = repos
-  .slice(0, maxRepos)
-  .map((repo, index) => {
-    return `
-<div align="center">
-  <samp>
-    <b>${(index + 1).toString().padStart(2, '0')}</b> —————————————————— 🛠️ <b>${repo.name.toUpperCase()}</b>
-    <br />
-    <kbd>${repo.language || 'SYSTEM'}</kbd> ❯❯ ${repo.description || 'No logs available for this module.'}
-    <br />
-    <span>LOC: <i>Calculating...</i> | STATUS: <font color="#2ea44f">STABLE</font> | ADDR: <a href="${repo.html_url}">source_code</a></span>
-    <br />
-    <br />
-  </samp>
-</div>`;
-  })
-  .join("\n");
-
+const list = `
+<p align="center">
+${repos.slice(0, maxRepos).map(repo => {
+  return `<a href="${repo.html_url}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=transparent&title_color=00FF00&text_color=008000&icon_color=00FF00&hide_border=true" /></a>`;
+}).join("")}
+</p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/type=Waving&color=00FF00&height=50&section=footer" />
+</p>
+`;
 
 
   const readme = fs.readFileSync("README.md", "utf-8");
