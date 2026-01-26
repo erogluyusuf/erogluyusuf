@@ -48,7 +48,6 @@ const list = repos
       </a>
     </td>
   </tr>
-  <!-- Diğer satırlar burada olacak -->
 </table>
 
 
