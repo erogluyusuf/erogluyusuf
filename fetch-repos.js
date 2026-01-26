@@ -35,33 +35,65 @@ fetchRepos((repos) => {
     return;
   }
 
-  // Kartları oluştur
-  const repoCards = repos
-    .slice(0, maxRepos)
-    .map(
-      (repo) => `
-    <a href="${repo.html_url}">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" width="400" alt="${repo.name}" />
-    </a>`
-    )
-    .join("\n");
+  // --- OYUN HARİTASI TASARIMI ALGORİTMASI ---
+  
+  let content = `<div align="center" style="font-family: monospace;">\n`;
+  content += `<h3>🗺️ QUEST MAP: Latest Projects</h3>\n`;
 
-  // Hepsini bir kutuya koy (Yan yana dizilmesi için)
-  const finalContent = `
-<div align="center">
-${repoCards}
-</div>
-`;
+  const validRepos = repos.slice(0, maxRepos);
+
+  validRepos.forEach((repo, index) => {
+    const isEven = index % 2 === 0; // Çift sayılar (0, 2, 4) -> SOLA
+    
+    // 1. ADIM: "Level" Başlığı (Oyun Havası Katmak İçin)
+    const levelBadge = `<b>🏰 LEVEL ${index + 1}</b>`;
+
+    // 2. ADIM: Repo Kartı
+    const repoCard = `
+      <a href="${repo.html_url}">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical&hide_border=true" width="350" alt="${repo.name}" />
+      </a>
+    `;
+
+    // 3. ADIM: Yönlendirme ve Hizalama (Zikzak Mantığı)
+    if (isEven) {
+        // --- SOLDA GÖSTER ---
+        content += `
+        <div align="left" style="margin-left: 10%;">
+            ${levelBadge}<br/>
+            ${repoCard}
+        </div>`;
+        
+        // Eğer bu son eleman değilse, aşağı sağa giden bir ok/yol ekle
+        if (index < validRepos.length - 1) {
+            content += `<div align="center"><img src="https://raw.githubusercontent.com/erogluyusuf/erogluyusuf/main/assets/path-down-right.png" width="50" alt="↘️" /> <br/></div>\n`;
+        }
+
+    } else {
+        // --- SAĞDA GÖSTER ---
+        content += `
+        <div align="right" style="margin-right: 10%;">
+            ${levelBadge}<br/>
+            ${repoCard}
+        </div>`;
+
+        // Eğer bu son eleman değilse, aşağı sola giden bir ok/yol ekle
+        if (index < validRepos.length - 1) {
+            content += `<div align="center"><img src="https://raw.githubusercontent.com/erogluyusuf/erogluyusuf/main/assets/path-down-left.png" width="50" alt="↙️" /> <br/></div>\n`;
+        }
+    }
+  });
+
+  content += `</div>`;
+
+  // --- HTML GÜNCELLEME ---
 
   const readme = fs.readFileSync("README.md", "utf-8");
-
-  // ⚠️ DÜZELTİLEN KISIM BURASI ⚠️
-  // Tüm dosyayı değil, sadece iki etiket arasını seçiyoruz:
   const updated = readme.replace(
-    /[\s\S]*?/,
-    `\n${finalContent}\n`
+    /[\s\S]*/,
+    `\n${content}\n`
   );
 
   fs.writeFileSync("README.md", updated, "utf-8");
-  console.log("README.md updated successfully (safe mode).");
+  console.log("Map style updated successfully!");
 });
