@@ -119,8 +119,8 @@
 <table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
   <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td style="width: 100%; padding: 10px;">
-      <a href="https://github.com/erogluyusuf/erogluyusuf">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical" />
+      <a href="https://github.com/erogluyusuf/Drupal">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Drupal&theme=radical" />
       </a>
     </td>
   </tr>
@@ -133,8 +133,8 @@
 <table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
   <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td style="width: 100%; padding: 10px;">
-      <a href="https://github.com/erogluyusuf/Awesome-Linux-Software">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Awesome-Linux-Software&theme=radical" />
+      <a href="https://github.com/erogluyusuf/DailyFlow-app">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=DailyFlow-app&theme=radical" />
       </a>
     </td>
   </tr>
@@ -147,8 +147,8 @@
 <table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
   <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td style="width: 100%; padding: 10px;">
-      <a href="https://github.com/erogluyusuf/java-glossary-of-terms">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=java-glossary-of-terms&theme=radical" />
+      <a href="https://github.com/erogluyusuf/Etnikyopya">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Etnikyopya&theme=radical" />
       </a>
     </td>
   </tr>
@@ -161,8 +161,8 @@
 <table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
   <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td style="width: 100%; padding: 10px;">
-      <a href="https://github.com/erogluyusuf/Linux-backup">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Linux-backup&theme=radical" />
+      <a href="https://github.com/erogluyusuf/linebyline.com">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=linebyline.com&theme=radical" />
       </a>
     </td>
   </tr>
@@ -175,8 +175,8 @@
 <table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
   <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td style="width: 100%; padding: 10px;">
-      <a href="https://github.com/erogluyusuf/fan-control">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=fan-control&theme=radical" />
+      <a href="https://github.com/erogluyusuf/Feuerstelle">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Feuerstelle&theme=radical" />
       </a>
     </td>
   </tr>
@@ -189,8 +189,8 @@
 <table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
   <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
     <td style="width: 100%; padding: 10px;">
-      <a href="https://github.com/erogluyusuf/solidworks-vba">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=solidworks-vba&theme=radical" />
+      <a href="https://github.com/erogluyusuf/voca">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=voca&theme=radical" />
       </a>
     </td>
   </tr>
