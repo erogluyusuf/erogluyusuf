@@ -102,75 +102,11 @@
 
 <!--START_SECTION:repos-->
 
-<div align="center">
-  <samp>
-    <b>01</b> —————————————————— 🛠️ <b>EROGLUYUSUF</b>
-    <br />
-    <kbd>JavaScript</kbd> ❯❯ step
-    <br />
-    <span>LOC: <i>Calculating...</i> | STATUS: <font color="#2ea44f">STABLE</font> | ADDR: <a href="https://github.com/erogluyusuf/erogluyusuf">source_code</a></span>
-    <br />
-    <br />
-  </samp>
-</div>
+<p align="center">
+<a href="https://github.com/erogluyusuf/erogluyusuf"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=transparent&title_color=00FF00&text_color=008000&icon_color=00FF00&hide_border=true" /></a><a href="https://github.com/erogluyusuf/Drupal"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Drupal&theme=transparent&title_color=00FF00&text_color=008000&icon_color=00FF00&hide_border=true" /></a><a href="https://github.com/erogluyusuf/DailyFlow-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=DailyFlow-app&theme=transparent&title_color=00FF00&text_color=008000&icon_color=00FF00&hide_border=true" /></a><a href="https://github.com/erogluyusuf/Etnikyopya"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Etnikyopya&theme=transparent&title_color=00FF00&text_color=008000&icon_color=00FF00&hide_border=true" /></a><a href="https://github.com/erogluyusuf/linebyline.com"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=linebyline.com&theme=transparent&title_color=00FF00&text_color=008000&icon_color=00FF00&hide_border=true" /></a><a href="https://github.com/erogluyusuf/Feuerstelle"><img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Feuerstelle&theme=transparent&title_color=00FF00&text_color=008000&icon_color=00FF00&hide_border=true" /></a>
+</p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/type=Waving&color=00FF00&height=50&section=footer" />
+</p>
 
-<div align="center">
-  <samp>
-    <b>02</b> —————————————————— 🛠️ <b>DRUPAL</b>
-    <br />
-    <kbd>SYSTEM</kbd> ❯❯ profesyonel çalışmalarımı, geliştirdiğim mobil/web uygulamalarını ve teknik blog yazılarımı tek bir çatı altında toplayan, Drupal altyapısı ile geliştirilmiş kişisel web sitesidir.
-    <br />
-    <span>LOC: <i>Calculating...</i> | STATUS: <font color="#2ea44f">STABLE</font> | ADDR: <a href="https://github.com/erogluyusuf/Drupal">source_code</a></span>
-    <br />
-    <br />
-  </samp>
-</div>
-
-<div align="center">
-  <samp>
-    <b>03</b> —————————————————— 🛠️ <b>DAILYFLOW-APP</b>
-    <br />
-    <kbd>SYSTEM</kbd> ❯❯ modern hayatın karmaşasında kullanıcıların günlük rutinlerini düzenlemelerine, alışkanlık takibi yapmalarına ve "akışta" (flow state) kalmalarına yardımcı olan minimalist bir Android uygulamasıdır.
-    <br />
-    <span>LOC: <i>Calculating...</i> | STATUS: <font color="#2ea44f">STABLE</font> | ADDR: <a href="https://github.com/erogluyusuf/DailyFlow-app">source_code</a></span>
-    <br />
-    <br />
-  </samp>
-</div>
-
-<div align="center">
-  <samp>
-    <b>04</b> —————————————————— 🛠️ <b>ETNIKYOPYA</b>
-    <br />
-    <kbd>SYSTEM</kbd> ❯❯ Etnikyopya, "Alışılagelmişin dışında olmayı sevenlere özgü" mottosuyla yola çıkan, özel tasarım etnik giyim ürünlerinin son kullanıcıyla buluştuğu dijital bir e-ticaret girişimidir.
-    <br />
-    <span>LOC: <i>Calculating...</i> | STATUS: <font color="#2ea44f">STABLE</font> | ADDR: <a href="https://github.com/erogluyusuf/Etnikyopya">source_code</a></span>
-    <br />
-    <br />
-  </samp>
-</div>
-
-<div align="center">
-  <samp>
-    <b>05</b> —————————————————— 🛠️ <b>LINEBYLINE.COM</b>
-    <br />
-    <kbd>SYSTEM</kbd> ❯❯ LineByLine, yabancı dil öğrenimini (FL - Foreign Language) film ve dizi senaryoları (scripts) üzerinden bağlamsal hale getiren web tabanlı bir platformdur.
-    <br />
-    <span>LOC: <i>Calculating...</i> | STATUS: <font color="#2ea44f">STABLE</font> | ADDR: <a href="https://github.com/erogluyusuf/linebyline.com">source_code</a></span>
-    <br />
-    <br />
-  </samp>
-</div>
-
-<div align="center">
-  <samp>
-    <b>06</b> —————————————————— 🛠️ <b>FEUERSTELLE</b>
-    <br />
-    <kbd>SYSTEM</kbd> ❯❯ Feuerstlle, doğa severler ve kampçılar için özel olarak tasarlanmış; kurulumu kolay, taşınabilir ve yüksek dayanıklılığa sahip modüler bir kamp ocağı (camping stove) ve ateş çukuru projesidir.
-    <br />
-    <span>LOC: <i>Calculating...</i> | STATUS: <font color="#2ea44f">STABLE</font> | ADDR: <a href="https://github.com/erogluyusuf/Feuerstelle">source_code</a></span>
-    <br />
-    <br />
-  </samp>
-</div>
 <!--END_SECTION:repos-->
