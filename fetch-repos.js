@@ -42,12 +42,12 @@ fetchRepos((repos) => {
   const validRepos = repos.slice(0, maxRepos);
 
   validRepos.forEach((repo, index) => {
-    const isEven = index % 2 === 0; // Çift sayılar (0, 2, 4) -> SOLA, Tekler -> SAĞA
+    const isEven = index % 2 === 0; // Çift sayılar (0, 2, 4) -> SOLA
     
     // Level Başlığı
     const levelBadge = `<b>🏰 LEVEL ${index + 1}</b>`;
 
-    // Repo Kartı
+    // Repo Kartı (Border kaldırıldı, sadeleştirildi)
     const repoCard = `
       <a href="${repo.html_url}">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical&hide_border=true" width="350" alt="${repo.name}" />
@@ -85,17 +85,17 @@ fetchRepos((repos) => {
 
   content += `</div>`;
 
-  // --- DOSYAYA YAZMA (DÜZELTİLMİŞ KISIM) ---
+  // --- DOSYAYA YAZMA ---
 
   const readme = fs.readFileSync("README.md", "utf-8");
   
-  // ⚠️ HATAYI BURADA ÇÖZDÜK:
-  // Artık dosyanın tamamını değil, sadece ve arasını değiştiriyor.
+  // ⚠️ DÜZELTME: Sadece START ve END etiketlerinin arasını bulur ve değiştirir.
+  // Sayfanın en üstüne dokunmaz.
   const updated = readme.replace(
     /[\s\S]*?/,
     `\n${content}\n`
   );
 
   fs.writeFileSync("README.md", updated, "utf-8");
-  console.log("Map style updated successfully (Fixed Regex)!");
+  console.log("Map style updated successfully inside the correct section!");
 });
