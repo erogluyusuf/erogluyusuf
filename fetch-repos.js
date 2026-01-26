@@ -36,24 +36,18 @@ fetchRepos((repos) => {
     return;
   }
 
-const list = repos
-  .slice(0, maxRepos)
-  .map(
-    (repo) => `
-<table style="width: 100%; display: flex; flex-wrap: wrap; gap: 10px;">
-  <tr style="display: flex; width: calc(50% - 10px); padding: 20px; border: 1px solid #ccc; text-align: center;">
-    <td style="width: 100%; padding: 10px;">
-      <a href="${repo.html_url}">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" />
-      </a>
-    </td>
-  </tr>
-</table>
-
-
-`
-  )
-  .join("\n");
+const list = `
+<div align="center">
+${repos
+  .slice(0, maxRepos)
+  .map(
+    (repo) => `  <a href="${repo.html_url}">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical&show_owner=false" alt="${repo.name}" height="120" />
+  </a>`
+  )
+  .join("\n")}
+</div>
+`;
 
 
 
