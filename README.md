@@ -102,31 +102,23 @@
 
 <!--START_SECTION:repos-->
 
-<div align="center">
+```zsh
+erogluyusuf:~/projects $ list-active-repositories --limit=6
 
-  <a href="https://github.com/erogluyusuf/erogluyusuf">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=ff79c6&icon_color=8be9fd" height="120" />
-  </a>
+[EXE] erogluyusuf               | JavaScript | Last_Update: Jan 2026
+      ┗━━> https://github.com/erogluyusuf/erogluyusuf
+[EXE] Drupal                    | Plain | Last_Update: Jan 2026
+      ┗━━> https://github.com/erogluyusuf/Drupal
+[EXE] DailyFlow-app             | Plain | Last_Update: Jan 2026
+      ┗━━> https://github.com/erogluyusuf/DailyFlow-app
+[EXE] Etnikyopya                | Plain | Last_Update: Jan 2026
+      ┗━━> https://github.com/erogluyusuf/Etnikyopya
+[EXE] linebyline.com            | Plain | Last_Update: Jan 2026
+      ┗━━> https://github.com/erogluyusuf/linebyline.com
+[EXE] Feuerstelle               | Plain | Last_Update: Jan 2026
+      ┗━━> https://github.com/erogluyusuf/Feuerstelle
 
-  <a href="https://github.com/erogluyusuf/Drupal">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Drupal&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=ff79c6&icon_color=8be9fd" height="120" />
-  </a>
-
-  <a href="https://github.com/erogluyusuf/DailyFlow-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=DailyFlow-app&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=ff79c6&icon_color=8be9fd" height="120" />
-  </a>
-
-  <a href="https://github.com/erogluyusuf/Etnikyopya">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Etnikyopya&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=ff79c6&icon_color=8be9fd" height="120" />
-  </a>
-
-  <a href="https://github.com/erogluyusuf/linebyline.com">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=linebyline.com&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=ff79c6&icon_color=8be9fd" height="120" />
-  </a>
-
-  <a href="https://github.com/erogluyusuf/Feuerstelle">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Feuerstelle&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=ff79c6&icon_color=8be9fd" height="120" />
-  </a>
-</div>
+[SYSTEM] Status: All systems operational.
+```
 
 <!--END_SECTION:repos-->
