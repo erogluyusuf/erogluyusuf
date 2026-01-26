@@ -36,19 +36,23 @@ fetchRepos((repos) => {
     return;
   }
 
-const list = `
-\`\`\`zsh
-erogluyusuf:~/projects $ list-active-repositories --limit=${maxRepos}
-
-${repos.slice(0, maxRepos).map(repo => {
-  const date = new Date(repo.updated_at).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
-  return `[EXE] ${repo.name.padEnd(25)} | ${repo.language || 'Plain'} | Last_Update: ${date}
-      ┗━━> ${repo.html_url}`;
-}).join('\n')}
-
-[SYSTEM] Status: All systems operational.
-\`\`\`
-`;
+const list = repos
+  .slice(0, maxRepos)
+  .map((repo, index) => {
+    return `
+<div align="center">
+  <samp>
+    <b>${(index + 1).toString().padStart(2, '0')}</b> —————————————————— 🛠️ <b>${repo.name.toUpperCase()}</b>
+    <br />
+    <kbd>${repo.language || 'SYSTEM'}</kbd> ❯❯ ${repo.description || 'No logs available for this module.'}
+    <br />
+    <span>LOC: <i>Calculating...</i> | STATUS: <font color="#2ea44f">STABLE</font> | ADDR: <a href="${repo.html_url}">source_code</a></span>
+    <br />
+    <br />
+  </samp>
+</div>`;
+  })
+  .join("\n");
 
 
 
