@@ -36,18 +36,12 @@ fetchRepos((repos) => {
     return;
   }
 
-const list = `
-<div align="center">
-${repos
+const list = repos
   .slice(0, maxRepos)
   .map(
-    (repo) => `  <a href="${repo.html_url}">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical&show_owner=false" alt="${repo.name}" height="120" />
-  </a>`
+    (repo) => `[![${repo.name}](https://img.shields.io/badge/${repo.name.replace(/-/g, '_')}-${repo.language || 'Code'}-blue?style=for-the-badge&logo=github)](${repo.html_url})`
   )
-  .join("\n")}
-</div>
-`;
+  .join(" ");
 
 
 
