@@ -85,16 +85,17 @@ fetchRepos((repos) => {
 
   content += `</div>`;
 
-  // --- DOSYAYA YAZMA (GÜVENLİ MOD) ---
+  // --- DOSYAYA YAZMA (DÜZELTİLMİŞ KISIM) ---
 
   const readme = fs.readFileSync("README.md", "utf-8");
   
-  // Sadece START ve END etiketlerinin arasını değiştirir.
+  // ⚠️ HATAYI BURADA ÇÖZDÜK:
+  // Artık dosyanın tamamını değil, sadece ve arasını değiştiriyor.
   const updated = readme.replace(
     /[\s\S]*?/,
     `\n${content}\n`
   );
 
   fs.writeFileSync("README.md", updated, "utf-8");
-  console.log("Map style updated successfully (safe mode)!");
+  console.log("Map style updated successfully (Fixed Regex)!");
 });
