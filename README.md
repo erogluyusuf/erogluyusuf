@@ -101,26 +101,5 @@
 </picture>
 
 <!--START_SECTION:repos-->
-
-<div align="center">
-  <a href="https://github.com/erogluyusuf/erogluyusuf">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=radical&show_owner=false" alt="erogluyusuf" height="120" />
-  </a>
-  <a href="https://github.com/erogluyusuf/Drupal">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Drupal&theme=radical&show_owner=false" alt="Drupal" height="120" />
-  </a>
-  <a href="https://github.com/erogluyusuf/DailyFlow-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=DailyFlow-app&theme=radical&show_owner=false" alt="DailyFlow-app" height="120" />
-  </a>
-  <a href="https://github.com/erogluyusuf/Etnikyopya">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Etnikyopya&theme=radical&show_owner=false" alt="Etnikyopya" height="120" />
-  </a>
-  <a href="https://github.com/erogluyusuf/linebyline.com">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=linebyline.com&theme=radical&show_owner=false" alt="linebyline.com" height="120" />
-  </a>
-  <a href="https://github.com/erogluyusuf/Feuerstelle">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Feuerstelle&theme=radical&show_owner=false" alt="Feuerstelle" height="120" />
-  </a>
-</div>
-
+[![erogluyusuf](https://img.shields.io/badge/erogluyusuf-JavaScript-blue?style=for-the-badge&logo=github)](https://github.com/erogluyusuf/erogluyusuf) [![Drupal](https://img.shields.io/badge/Drupal-Code-blue?style=for-the-badge&logo=github)](https://github.com/erogluyusuf/Drupal) [![DailyFlow-app](https://img.shields.io/badge/DailyFlow_app-Code-blue?style=for-the-badge&logo=github)](https://github.com/erogluyusuf/DailyFlow-app) [![Etnikyopya](https://img.shields.io/badge/Etnikyopya-Code-blue?style=for-the-badge&logo=github)](https://github.com/erogluyusuf/Etnikyopya) [![linebyline.com](https://img.shields.io/badge/linebyline.com-Code-blue?style=for-the-badge&logo=github)](https://github.com/erogluyusuf/linebyline.com) [![Feuerstelle](https://img.shields.io/badge/Feuerstelle-Code-blue?style=for-the-badge&logo=github)](https://github.com/erogluyusuf/Feuerstelle)
 <!--END_SECTION:repos-->
