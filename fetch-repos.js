@@ -1,8 +1,8 @@
 const fs = require("fs");
 const https = require("https");
 
-const username = "erogluyusuf"; // GitHub kullanıcı adın
-const maxRepos = 6; // En fazla kaç proje gösterilsin
+const username = "erogluyusuf"; 
+const maxRepos = 6; 
 
 function fetchRepos(callback) {
   const options = {
@@ -31,23 +31,22 @@ function fetchRepos(callback) {
 
 fetchRepos((repos) => {
   if (!repos || repos.length === 0) {
-    console.log("No repositories found or failed to fetch data.");
+    console.log("No repositories found.");
     return;
   }
 
-  // 1. ADIM: Her repoyu sadece bir Link ve Resim olarak hazırla (Tabloyu kaldırdık)
+  // Kartları oluştur
   const repoCards = repos
     .slice(0, maxRepos)
     .map(
       (repo) => `
-  <a href="${repo.html_url}">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" width="400" alt="${repo.name}" />
-  </a>`
+    <a href="${repo.html_url}">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical" width="400" alt="${repo.name}" />
+    </a>`
     )
     .join("\n");
 
-  // 2. ADIM: Tüm kartları tek bir ortalanmış DIV içine al
-  // Bu sayede ekran genişliğine göre yan yana dizilirler.
+  // Hepsini bir kutuya koy (Yan yana dizilmesi için)
   const finalContent = `
 <div align="center">
 ${repoCards}
@@ -55,13 +54,14 @@ ${repoCards}
 `;
 
   const readme = fs.readFileSync("README.md", "utf-8");
-  
-  // 3. ADIM: README dosyasındaki alanı güncelle
+
+  // ⚠️ DÜZELTİLEN KISIM BURASI ⚠️
+  // Tüm dosyayı değil, sadece iki etiket arasını seçiyoruz:
   const updated = readme.replace(
-    /[\s\S]*/,
+    /[\s\S]*?/,
     `\n${finalContent}\n`
   );
 
   fs.writeFileSync("README.md", updated, "utf-8");
-  console.log("README.md updated successfully with repositories.");
+  console.log("README.md updated successfully (safe mode).");
 });
