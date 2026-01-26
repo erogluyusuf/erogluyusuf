@@ -37,13 +37,18 @@ fetchRepos((repos) => {
   }
 
 const list = `
-<p align="center">
+\`\`\`zsh
+erogluyusuf:~/projects $ list-active-repositories --limit=${maxRepos}
+
 ${repos.slice(0, maxRepos).map(repo => {
-  // Dil renklerine göre küçük kareler (placeholder simgeler)
-  return `<a href="${repo.html_url}"><img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=radical&show_owner=false" width="300" /></a>`;
+  const date = new Date(repo.updated_at).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+  return `[EXE] ${repo.name.padEnd(25)} | ${repo.language || 'Plain'} | Last_Update: ${date}
+      ┗━━> ${repo.html_url}`;
 }).join('\n')}
-</p>
-<p align="right"><i>// End of Transmission</i></p>
+
+[SYSTEM] Status: All systems operational.
+\`\`\`
+`;
 
 
 
