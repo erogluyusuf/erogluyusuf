@@ -101,5 +101,32 @@
 </picture>
 
 <!--START_SECTION:repos-->
-[![erogluyusuf](https://img.shields.io/badge/erogluyusuf-JavaScript-blue?style=for-the-badge&logo=github)](https://github.com/erogluyusuf/erogluyusuf) [![Drupal](https://img.shields.io/badge/Drupal-Code-blue?style=for-the-badge&logo=github)](https://github.com/erogluyusuf/Drupal) [![DailyFlow-app](https://img.shields.io/badge/DailyFlow_app-Code-blue?style=for-the-badge&logo=github)](https://github.com/erogluyusuf/DailyFlow-app) [![Etnikyopya](https://img.shields.io/badge/Etnikyopya-Code-blue?style=for-the-badge&logo=github)](https://github.com/erogluyusuf/Etnikyopya) [![linebyline.com](https://img.shields.io/badge/linebyline.com-Code-blue?style=for-the-badge&logo=github)](https://github.com/erogluyusuf/linebyline.com) [![Feuerstelle](https://img.shields.io/badge/Feuerstelle-Code-blue?style=for-the-badge&logo=github)](https://github.com/erogluyusuf/Feuerstelle)
+
+<div align="center">
+
+  <a href="https://github.com/erogluyusuf/erogluyusuf">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=erogluyusuf&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=ff79c6&icon_color=8be9fd" height="120" />
+  </a>
+
+  <a href="https://github.com/erogluyusuf/Drupal">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Drupal&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=ff79c6&icon_color=8be9fd" height="120" />
+  </a>
+
+  <a href="https://github.com/erogluyusuf/DailyFlow-app">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=DailyFlow-app&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=ff79c6&icon_color=8be9fd" height="120" />
+  </a>
+
+  <a href="https://github.com/erogluyusuf/Etnikyopya">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Etnikyopya&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=ff79c6&icon_color=8be9fd" height="120" />
+  </a>
+
+  <a href="https://github.com/erogluyusuf/linebyline.com">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=linebyline.com&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=ff79c6&icon_color=8be9fd" height="120" />
+  </a>
+
+  <a href="https://github.com/erogluyusuf/Feuerstelle">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=erogluyusuf&repo=Feuerstelle&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=ff79c6&icon_color=8be9fd" height="120" />
+  </a>
+</div>
+
 <!--END_SECTION:repos-->
