@@ -192,18 +192,3 @@
 <!--END_SECTION:repos-->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-bununşöyle özelliklerini var onaları silmeden bozamadan bize bi harikta tasarım lazım
