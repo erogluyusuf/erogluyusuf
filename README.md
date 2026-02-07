@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-    <img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/sky.png?raw=true" height="200px" />
+    <img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/sky.png?raw=true" width="45%" height="200px" />
     <img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/a.png?raw=true" style="border-radius: 15px;" height="200px" />
   </p>
   <h2>Software Development | System & Network Administration</h2>
