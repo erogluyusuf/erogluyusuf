@@ -2,7 +2,7 @@
   <img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/sky.png?raw=true" width="75%" />
   <img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/a.png?raw=true" style="border-radius: 15px;" width="15%  />
 </p>
-  <br>
+  <br>  <br>
 
   <h2>Software Development | System & Network Administration</h2>
   <p><i>Linux & Open Source Enthusiast</i></p>
