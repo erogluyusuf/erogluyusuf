@@ -1,14 +1,8 @@
 <div align="center">
-<table border="0">
-  <tr>
-    <td>
-      <img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/sky.png?raw=true" height="200" />
-    </td>
-    <td>
-      <img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/a.png?raw=true" height="200" style="border-radius: 15px;" />
-    </td>
-  </tr>
-</table>
+<p align="left">
+  <img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/sky.png?raw=true" height="200" />
+  <img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/a.png?raw=true" height="200" style="border-radius: 15px;" />
+</p>
   <h2>Software Development | System & Network Administration</h2>
   <p><i>Linux & Open Source Enthusiast</i></p>
 
