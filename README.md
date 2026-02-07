@@ -1,25 +1,25 @@
 <div align="center">
-<p align="left">
-  <img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/sky.png?raw=true" height="200" />
-  <img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/a.png?raw=true" height="200" style="border-radius: 15px;" />
-</p>
+<table>
+  <tbody><tr>
+    <td>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/erogluyusuf/erogluyusuf/blob/main/sky.png?raw=true"><img src="https://github.com/erogluyusuf/erogluyusuf/raw/main/sky.png?raw=true" height="200" style="max-width: 100%; height: auto; max-height: 200px;"></a>
+    </td>
+    <td>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/erogluyusuf/erogluyusuf/blob/main/a.png?raw=true"><img src="https://github.com/erogluyusuf/erogluyusuf/raw/main/a.png?raw=true" height="200" style="max-width: 100%; height: auto; max-height: 200px;"></a>
+    </td>
+  </tr>
+</tbody></table>
+
+
+
+
   <h2>Software Development | System & Network Administration</h2>
   <p><i>Linux & Open Source Enthusiast</i></p>
 
-  <a href="https://www.linkedin.com/in/erogluyusuf" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
-  </a>
-  <a href="mailto:yusuferoglu1957@gmail.com" target="_blank">
-    <img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" />
-  </a>
 
-  <a href="https://www.instagram.com/yusufcagaloglu/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
-  </a>
-</div>
 
-<hr>
-    <img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/key.png?raw=true" />
+.
+    <img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/key.png?raw=true"/>
 </div>
 
 <br>
