@@ -13,13 +13,11 @@
 
 
 
-  <h2>Software Development | System & Network Administration</h2>
-  <p><i>Linux & Open Source Enthusiast</i></p>
+  <h2>System Architecture • Network Intelligence • Software Engineering</h2>
+  <p><i>Open Source & Linux-Based Infrastructure</i></p>
 
 
-
-.
-    <img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/key.png?raw=true"/>
+<img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/key.png?raw=true"/>
 </div>
 
 <br>
