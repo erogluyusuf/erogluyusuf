@@ -26,7 +26,7 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=erogluyusuf&theme=react-dark" width="100%" />
 </div>
 
-<br>
+<
 
 <div align="center">
   <picture>
@@ -46,3 +46,5 @@
 | [![Ulak](https://badges-jet.vercel.app/api/card?username=erogluyusuf&repo=ulak&w=420&animate=true&img=https://github.com/erogluyusuf/ulak/raw/main/docs/assets/logo-unbg.png&customBadges=Core:Python:3776AB:python,Net:Packet:007FFF:wireshark,UI:Rich:FB923C:python)](https://github.com/erogluyusuf/ulak) | [![vClutter](https://badges-jet.vercel.app/api/card?username=erogluyusuf&repo=vClutter&w=420&animate=true&customBadges=App:Desktop:007FFF:windows,Tool:Cleanup:FF3333:trash)](https://github.com/erogluyusuf/vClutter) |
 | [![vClaw](https://badges-jet.vercel.app/api/card?username=erogluyusuf&repo=vClaw&w=420&animate=true&customBadges=Type:Automation:444444:githubactions,Utility:Script:F7DF1E:javascript)](https://github.com/erogluyusuf/vClaw) | [![Universal BLE Radar](https://badges-jet.vercel.app/api/card?username=erogluyusuf&repo=Universal-BLE-Radar&w=420&animate=true&customBadges=Bluetooth:BLE:0082FC:bluetooth,Dev:Mobile:3DDC84:android,Logic:Python:3776AB:python)](https://github.com/erogluyusuf/Universal-BLE-Radar) |
 | [![WiFi Sensing Radar](https://badges-jet.vercel.app/api/card?username=erogluyusuf&repo=WiFi-Sensing-Radar&w=420&animate=true&customBadges=Protocol:802.11:007FFF:wifi,RF:Sensing:FF5722:signal,Analysis:Data:4CAF50:scipy)](https://github.com/erogluyusuf/WiFi-Sensing-Radar) | [![DailyFlow-app](https://badges-jet.vercel.app/api/card?username=erogluyusuf&repo=DailyFlow-app&w=420&animate=true&customBadges=Type:Mobile:007FFF:flutter,Backend:Firebase:FFCA28:firebase,UX:Productivity:673AB7:task)](https://github.com/erogluyusuf/DailyFlow-app) |
+| [![Empty MediaManager](https://badges-jet.vercel.app/api/card?username=erogluyusuf&repo=Empty-MediaManager&w=420&animate=true&customBadges=Type:Media:FF5722:plex,Tool:Manager:4CAF50:files)](https://github.com/erogluyusuf/Empty-MediaManager) | [![Cybersecurity Awesome](https://badges-jet.vercel.app/api/card?username=erogluyusuf&repo=cybersecurity-awesome&w=420&animate=true&customBadges=List:Awesome:FC60A8:awesomelists,Sec:InfoSec:da3633:kalilinux)](https://github.com/erogluyusuf/cybersecurity-awesome) |
+| [![WP Biindir](https://badges-jet.vercel.app/api/card?username=erogluyusuf&repo=wp-biindir&w=420&animate=true&customBadges=CMS:WordPress:21759B:wordpress,Web:PHP:777BB4:php)](https://github.com/erogluyusuf/wp-biindir) | |
