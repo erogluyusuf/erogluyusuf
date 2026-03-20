@@ -10,9 +10,6 @@
   </tr>
 </tbody></table>
  
-
-
-
   <h2>System Architecture • Network Intelligence • Software Engineering</h2>
   <p><i>Open Source & Linux-Based Infrastructure</i></p>
 
