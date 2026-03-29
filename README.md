@@ -10,7 +10,7 @@
   </tr>
 </tbody></table>
  
-  <h2>System Architecture • Network Intelligence • Software Engineering</h2>
+  <h2>Cyber Security Analyst • DevSecOps • Cloud Infrastructure</h2>
   <p><i>Open Source & Linux-Based Infrastructure</i></p>
 
 
