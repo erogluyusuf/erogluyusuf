@@ -9,11 +9,11 @@
     </td>
   </tr>
 </tbody></table>
-  
+  <br>
   <h2>Cyber Security Analyst • DevSecOps • Cloud Infrastructure</h2>
   <p><i>Open Source & Linux-Based Infrastructure</i></p>
 
-
+<br><br><br><br><br>
 <img src="https://github.com/erogluyusuf/erogluyusuf/blob/main/key.png?raw=true"/>
 </div>
 
